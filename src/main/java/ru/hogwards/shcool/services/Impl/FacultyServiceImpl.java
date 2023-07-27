@@ -36,7 +36,7 @@ public class FacultyServiceImpl implements FacultyService {
     }
 
     @Override
-    public Collection<Faculty> getFacultyByColor(String color) {
+    public Collection<Faculty> getFacultiesByColor(String color) {
         List<Faculty> filteredFacultyList = new ArrayList<>();
 
         for (Map.Entry<Long, Faculty> entry : facultyMap.entrySet()) {
