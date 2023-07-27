@@ -9,7 +9,7 @@ import java.util.*;
 @Service
 public class FacultyServiceImpl implements FacultyService {
 
-    private Map<Long, Faculty> facultyMap = new HashMap<>();
+    private final Map<Long, Faculty> facultyMap = new HashMap<>();
     private long id;
 
     @Override

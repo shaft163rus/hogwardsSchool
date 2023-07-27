@@ -8,7 +8,7 @@ import java.util.*;
 
 @Service
 public class StudentServiceImpl implements StudentService {
-    private Map<Long, Student> students = new HashMap<>();
+    private final Map<Long, Student> students = new HashMap<>();
     private long id;
 
     @Override
